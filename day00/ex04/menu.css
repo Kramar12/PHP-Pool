@@ -1,0 +1,67 @@
+ body
+ {
+     font: 16px Arial;
+ }
+
+ ul
+ {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ a
+ {
+     text-decoration: none;
+ }
+
+ .triangle
+ {
+     margin-left: 80px;
+     font-size: 13px;
+ }
+
+ .main a
+ {
+     background-color: #09223d;
+     color: seashell;
+     padding: 10px;
+     display: block;
+     border-bottom: 1px solid snow;
+     transition: 0.5s all;
+ }
+
+ .side
+ {
+     width: 200px;
+     margin: 20px 0 0 20px;
+ }
+
+ .main a:hover
+ {
+     background: #3b5ea9;
+     padding: 10px 0 10px 20px;
+ }
+
+ .main_paragraph
+ {
+     position: relative;
+ }
+
+ .main_subparagraph
+ {
+     position: absolute;
+     width: 100%;
+     left: 100%;
+     top: -25vw;
+     opacity: 0.2;
+     transition-property: opacity, right, height;
+     transition-duration: 0.5s;
+     border-left: 10px solid white;
+ }
+
+ .main_paragraph:hover .main_subparagraph
+ {
+     opacity: 1;
+     top: 0;
+ }

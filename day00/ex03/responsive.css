@@ -1,0 +1,109 @@
+#caption
+{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 5vw;
+    text-align: center;
+    color: darkslategray;
+    margin-bottom: 7%;
+}
+#content
+{
+    position: relative;
+    width: auto;
+    height: auto;
+}
+body
+{
+    background-image: url("http://i.imgur.com/nsqhAof.png");
+    width: auto;
+    height: auto;
+}
+#content div
+{
+}
+table td
+{
+    width: 5.55555555556%;
+}
+table tr
+{
+    width: 6%;
+    border: 1px solid red;
+}
+.Alkali
+{
+    background-color: #ca654b;
+    border: 1px solid #d5e2ff;
+}
+.Alkaline
+{
+    background-color: #ffe184;
+    border: 1px solid #d5e2ff;
+}
+.Lanthanide
+{
+    background-color: #ff91e8;
+    border: 1px solid #d5e2ff;
+}
+.Actinide
+{
+    background-color: #ff5db0;
+    border: 1px solid #d5e2ff;
+}
+.Transit
+{
+    background-color: #ffb3ae;
+    border: 1px solid #d5e2ff;
+}
+.Post_transit
+{
+    background-color: gainsboro;
+    border: 1px solid #d5e2ff;
+}
+.Metalloid
+{
+    background-color: rgba(67, 88, 3, 0.84);
+    border: 1px solid #d5e2ff;
+}
+.Polyatomic
+{
+    background-color: #92e796;
+    border: 1px solid #d5e2ff;
+}
+.Diatomic
+{
+    background-color: rgba(251, 255, 89, 0.6);
+    border: 1px solid #d5e2ff;
+}
+.Noble
+{
+    background-color: lightseagreen;
+    border: 1px solid #d5e2ff;
+}
+.Unknown
+{
+    background-color: darkgrey;
+    border: 1px solid #d5e2ff;
+}
+.name
+{
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+}
+.atomic-num
+{
+    font-size: 1vw;
+}
+.atomic-weight
+{
+    font-size: 1vw;
+    text-align: right;
+}
+.other
+{
+    font-size: 1.125vw;
+    font-weight: bold;
+    text-align: center;
+}

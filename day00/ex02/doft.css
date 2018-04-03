@@ -1,0 +1,192 @@
+body
+{
+    background-color: #515151;
+    position: relative;
+}
+#header
+{
+    background-color: #919191;
+    padding: 10px;
+    width: 1400px;
+    height: 117px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    margin-left:230px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px #000;
+}
+#loupe
+{
+    margin-top: -114px;
+    margin-left: 1124px;
+}
+#close
+{
+    margin-top: -54px;
+    margin-left: 1380px;
+}
+#reload
+{
+    margin-top: -121px;
+    margin-left: 1380px;
+}
+#base
+{
+    width: 140px;
+    height: 425px;
+    margin-left: 260px;
+    border-radius: 10px;
+    background: #909090;
+    box-shadow: 10px 10px 12px #000;
+}
+#arrow_icon
+{
+    margin-top: -410px;
+    margin-left: 292px;
+}
+#hand_icon
+{
+    margin-top: 6px;
+    margin-left: 292px;
+}
+#eye_icon
+{
+    margin-top: 1px;
+    margin-left: 287px;
+    margin-right: -1000px;
+}
+#eye_icon img
+{
+    border: 5px solid red;
+    border-radius: 5px;
+}
+#wrench_icon
+{
+    margin-top: 1px;
+    margin-left: 292px;
+}
+
+#chat_icon
+{
+    margin-top: 6px;
+    margin-left: 292px;
+}
+
+#cluster
+{
+    margin-top: -402px;
+    margin-left: 430px;
+}
+#cluster img
+{
+    border: 10px solid #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px 0 #000;
+}
+#baser
+{
+    width: 140px;
+    height: 425px;
+    margin-top: -586px;
+    margin-left: 1480px;
+    border-radius: 11px;
+    background: #909090;
+    box-shadow: 10px 10px 12px #000;
+}
+#book_icon
+{
+    margin-top: -410px;
+    margin-left: 1515px;
+}
+#towel_icon
+{
+    margin-top: 6px;
+    margin-left: 1515px;
+}
+#brick_icon
+{
+    width: 120px;
+    height: 71px;
+    margin-left: 1490px;
+    background: url("resources/brick.jpg");
+}
+#green_panel
+{
+    width: 500px;
+    height: 150px;
+    background-color: #88ff89;
+    margin-left: 185px;
+    margin-top: 258px;
+    position: absolute;
+    border: 10px solid #88ff89;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px #000;
+}
+
+.entrez
+{
+    font-size : 34px;
+    font-family : 'palatino linotype', 'book antiqua', Palatino, serif;
+}
+
+#end
+{
+    border-radius : 0px;
+    box-shadow : 0 0 0 white;
+    height : 16px;
+    margin-left: 1px;
+    width: 378px;
+}
+
+#button
+{
+    margin-left: 4px;
+    border : 0.5px solid rgba(166, 166, 166, 1.0);
+    border-radius: 2px;
+    margin-bottom: 10px;
+    background-color: #DFDFDF;
+    margin-top: 3px;
+    font: 12px Verdana;
+    height : 20px;
+    width : 79px;
+    letter-spacing: 0.5px;
+}
+.shadow
+{
+    text-shadow: 5px 5px 5px #FF3939;
+}
+
+.smaller
+{
+    font: 16px Arial;
+    font-style: italic;
+    letter-spacing: 0.6px;
+}
+
+#chair a
+{
+    position: absolute;
+    width: 150px;
+    height: 220px;
+    margin-top: -255px;
+    margin-left: 750px;
+}
+
+#screen a
+{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    margin-top: -263px;
+    margin-left: 1220px;
+}
+
+.vous
+{
+    margin-top: 10px;
+    font: 16px verdana;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+    word-spacing: 1px;
+}
+
