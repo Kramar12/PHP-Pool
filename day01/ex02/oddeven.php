@@ -9,7 +9,7 @@ while (7)
 		$num = trim($num);
 		if (is_numeric($num))
 		{
-			if ($num % 2)
+			if (!($num % 2))
 				echo "The number $num is even";
 			else
 				echo "The number $num is odd";

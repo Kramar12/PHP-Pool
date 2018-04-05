@@ -13,9 +13,19 @@ else if ($op == 45)
 else if ($op == 42)
 	$fp = $fp * $sp;
 else if ($op == 47)
-	$fp = $fp / $sp;
+{
+	if ($sp != 0)
+		$fp = $fp / $sp;
+	else if (print("Division by zero\n"))
+		return (FALSE);
+}
 else if ($op == 37)
-	$fp = $fp % $sp;
+{
+	if ($sp != 0)
+		$fp = $fp % $sp;
+	else if (print("Division by zero\n"))
+		return (FALSE);
+}
 else if (print("Incorrect Parameters\n"))
 	return (FALSE);
 echo $fp."\n";

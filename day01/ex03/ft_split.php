@@ -1,6 +1,4 @@
-#!/usr/bin/php
 <?PHP
-
 function ft_split($p1)
 {
 	if ($p1)
@@ -23,6 +21,4 @@ function ft_split($p1)
 		return ($arr);
 	}
 }
-
 ?>
-
